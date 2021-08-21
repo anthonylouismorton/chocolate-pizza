@@ -1,0 +1,152 @@
+nav, section,footer{
+  width: 960px;
+  margin-left:auto;
+  margin-right:auto;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+#choco-pizza p:first-of-type{
+  font-size: 30px;
+  font-weight: bold;
+}
+#print img{
+  float: right;
+}
+#print p{
+  float: right;
+}
+#nav1 img{
+  float: left;
+  height: 35px;
+}
+#paragraph1{
+  float: left;
+  font-family: 'Yellowtail', cursive;
+  margin-left: 8px;
+  font-size: 30px;
+  font-weight: bold;
+}
+#paragraph2{
+  font-family: monospace;
+  margin-left: 8px;
+  font-size: 10px;
+  color: gray;
+}
+
+#nav2{
+  display: inline;
+  font-size: 8px;
+}
+#section1{
+  background-color: gray;
+  height: 20px;
+  margin-top: 40px;
+  
+}
+#section2
+{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}#section3
+{
+  margin-top: 30px;
+}
+#section3 img{
+  width: 960px;
+}
+#section4 p{
+  margin-top: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18.6px;
+  text-indent: 1.5em;
+  color: rgb(105, 105, 105);
+  line-height: 1.45;
+}
+#section5 {
+  margin-top: 30px;
+  position: relative;
+  text-align: left;
+}
+#img1{
+  width: 960px;
+  z-index: 1;
+}
+
+#ul1{
+  z-index: 2;
+  position: absolute;
+  top: 40px;
+  left: 90px;
+  list-style-type: disc;
+  font-size: 24px;
+  line-height: 1.25;
+  font-family: 'Patrick Hand', cursive;
+  color: rgb(97, 95, 95);
+}
+#ul2{
+  z-index: 2;
+  position: absolute;
+  top: 40px;
+  right: 90px;
+  list-style-type: disc;
+  font-size: 24px;
+  line-height: 1.25;
+  width: 350px;
+  font-family: 'Patrick Hand', cursive;
+  color: rgb(97, 95, 95);
+}
+#section6{
+  background-color: gray;
+  height: 20px;
+  margin-top: 40px;
+}
+#section7{
+  margin-top: 20px;
+}
+#section7 img{
+  float: left;
+}
+#section7 p{
+  float: left;
+}
+#section7 p:nth-child(1){
+  
+  font-weight: bold;
+  margin-left: 20px;
+}
+#section7 p:nth-child(2){
+  font-size: 18.6px;
+  width: 450px;
+  margin-left: 20px;
+  
+}
+#section7 button{
+  float: right;
+  width: 225px;
+  height: 60px;
+  color: white;
+  background-color: rgba(126, 57, 17, 0.808);
+  font-size: 21px;
+  box-shadow: none;
+  border: 0px outset
+}
+footer{
+  margin-top: 200px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+/* footer img{
+  z-index: 2;
+  float: left;
+}
+h2{
+  z-index: 1;
+  border-bottom: 1px solid;
+  border-color: darkgrey;
+  float: left;
+  width: 380px;
+} */
